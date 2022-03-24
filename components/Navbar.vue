@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
+    class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-black"
   >
     <div
       class="container px-4 mx-auto flex flex-wrap items-center justify-between"
@@ -52,7 +52,9 @@
               type="button"
               style="transition: all 0.15s ease 0s"
             >
-              <i class="fas fa-arrow-alt-circle-down"></i> Repositorio
+              <a href="https://github.com/cheems-dev/app" target="_blank">
+                <i class="fas fa-arrow-alt-circle-down"></i> Repositorio
+              </a>
             </button>
           </li>
         </ul>
